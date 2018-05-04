@@ -2,7 +2,7 @@
 <%@page import="com.springbook.biz.board.impl.BoardDAO"%>
 <%@page import="com.springbook.biz.board.BoardVO"%>
 <%@ page language="java" contentType="text/html; charset=EUC-KR"%>
-
+asd
 <%
 	// 1. 사용자 입력 정보 추출
 	// 2. DB 연동 처리
