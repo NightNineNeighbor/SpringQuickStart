@@ -5,7 +5,29 @@ import java.sql.Date;
 public class BoardVO {
 	private int seq;
 	private String title;
+	private String writer;
+	private String content;
+	private Date regDate;
+	private int cnt;
+	private String searchCondition;
+	private String searchKeyword;
 	
+	public String getSearchCondition() {
+		return searchCondition;
+	}
+
+	public void setSearchCondition(String searchCondition) {
+		this.searchCondition = searchCondition;
+	}
+
+	public String getSearchKeyword() {
+		return searchKeyword;
+	}
+
+	public void setSearchKeyword(String searchKeyword) {
+		this.searchKeyword = searchKeyword;
+	}
+
 	public BoardVO() {};
 
 	public int getSeq() {
@@ -62,9 +84,6 @@ public class BoardVO {
 		this.cnt = cnt;
 	}
 
-	private String writer;
-	private String content;
-	private Date regDate;
-	private int cnt;
+	
 
 }
